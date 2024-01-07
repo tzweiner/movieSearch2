@@ -5,10 +5,10 @@ import {AppRoutingModule} from "./app.routes";
 import {BrowserModule} from "@angular/platform-browser";
 import {HttpClientModule} from "@angular/common/http";
 import {FormsModule, ReactiveFormsModule} from "@angular/forms";
-import { StubComponent } from './stub/stub.component';
+import { SearchComponent } from './search/search.component';
 
 @NgModule({
-  declarations: [AppComponent, StubComponent],
+  declarations: [AppComponent, SearchComponent],
   imports: [
     CommonModule, AppRoutingModule, BrowserModule, HttpClientModule, FormsModule, ReactiveFormsModule,
   ],
